@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "name": "Controls",
+    "maps": [
+        {
+            "name": "Camara",
+            "id": "b919c607-df6b-4584-9014-fa8bd0b5308e",
+            "actions": [
+                {
+                    "name": "LookX",
+                    "type": "Value",
+                    "id": "a0b8d4a8-21e4-402e-8389-59f71e7a4183",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Looky",
+                    "type": "Value",
+                    "id": "5effa8fb-d09e-4fce-947d-570352029620",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ec94e44d-e2ab-4c1c-959b-f555854fa4b1",
+                    "path": "<Mouse>/delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LookX",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
