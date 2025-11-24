@@ -29,4 +29,11 @@ public class logica_personaje_n3 : MonoBehaviour
         ani.SetFloat("VelX", x);
         ani.SetFloat("VelY", y);
     }
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Finish"))
+        {
+            Debug.Log("Finilitaciones Ha salido.");
+        }
+    }
 }
