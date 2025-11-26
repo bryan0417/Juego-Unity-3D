@@ -9,6 +9,7 @@ public class Cronometro : MonoBehaviour
     private int tiempoMinutos, tiempoSegundos, tiempoDecimasSegundo;
     public GameObject finDelJuego;
 
+
     // Referencia al AudioSource y los clips de música
     [SerializeField] private AudioSource musica;         // El AudioSource actual
     [SerializeField] private AudioClip gameOver;     // El clip de la nueva canción (tipo AudioClip)
@@ -42,8 +43,8 @@ public class Cronometro : MonoBehaviour
     {
         // Aquí puedes hacer lo que sea necesario al terminar el juego
         Debug.Log("¡El tiempo se ha agotado! Fin del juego.");
-         finDelJuego.SetActive(true);
-
+         //finDelJuego.SetActive(true);
+    SceneManager.LoadScene("Game Over");  
         // Detener el tiempo
         Time.timeScale = 0f;
 
