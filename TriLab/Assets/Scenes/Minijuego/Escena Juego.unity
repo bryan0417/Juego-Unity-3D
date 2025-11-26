@@ -3462,6 +3462,31 @@ GameObject:
   - component: {fileID: 1470050251}
   - component: {fileID: 1470050250}
   - component: {fileID: 1470050249}
+  - component: {fileID: 1470050274}
+  - component: {fileID: 1470050298}
+  - component: {fileID: 1470050297}
+  - component: {fileID: 1470050296}
+  - component: {fileID: 1470050295}
+  - component: {fileID: 1470050294}
+  - component: {fileID: 1470050293}
+  - component: {fileID: 1470050292}
+  - component: {fileID: 1470050291}
+  - component: {fileID: 1470050290}
+  - component: {fileID: 1470050289}
+  - component: {fileID: 1470050288}
+  - component: {fileID: 1470050287}
+  - component: {fileID: 1470050286}
+  - component: {fileID: 1470050285}
+  - component: {fileID: 1470050284}
+  - component: {fileID: 1470050283}
+  - component: {fileID: 1470050282}
+  - component: {fileID: 1470050281}
+  - component: {fileID: 1470050280}
+  - component: {fileID: 1470050279}
+  - component: {fileID: 1470050278}
+  - component: {fileID: 1470050277}
+  - component: {fileID: 1470050276}
+  - component: {fileID: 1470050275}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3482,11 +3507,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -13.5447855, y: 214.27449}
+  scrollPos: {x: 7.560686, y: -21.581945}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 545.60004
-  zoom: 0.5800004
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -3494,9 +3519,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1470049910}
+  - {fileID: 1470049868}
   selectedCommands:
-  - {fileID: 1470050248}
+  - {fileID: 1470050274}
   variables:
   - {fileID: 1470049918}
   - {fileID: 1470049917}
@@ -3626,6 +3651,7 @@ MonoBehaviour:
   - {fileID: 1470049927}
   - {fileID: 1470049926}
   - {fileID: 1470049925}
+  - {fileID: 1470050274}
   - {fileID: 1470049923}
   - {fileID: 1470049922}
   - {fileID: 1470049921}
@@ -3665,6 +3691,7 @@ MonoBehaviour:
   - {fileID: 1470049939}
   - {fileID: 1470049938}
   - {fileID: 1470049937}
+  - {fileID: 1470050298}
   - {fileID: 1470049936}
   - {fileID: 1470049935}
   - {fileID: 1470049934}
@@ -3684,8 +3711,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 279.0618
-    y: 437.44934
+    x: 280.89914
+    y: 436.64932
     width: 95.616
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3704,6 +3731,7 @@ MonoBehaviour:
   - {fileID: 1470049952}
   - {fileID: 1470049951}
   - {fileID: 1470049950}
+  - {fileID: 1470050297}
   - {fileID: 1470049949}
   - {fileID: 1470049948}
   - {fileID: 1470049947}
@@ -3723,8 +3751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 148.02751
-    y: 444.34604
+    x: 149.02783
+    y: 443.46692
     width: 95.24
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3743,6 +3771,7 @@ MonoBehaviour:
   - {fileID: 1470049965}
   - {fileID: 1470049964}
   - {fileID: 1470049963}
+  - {fileID: 1470050296}
   - {fileID: 1470049962}
   - {fileID: 1470049961}
   - {fileID: 1470049960}
@@ -3762,8 +3791,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 25.268913
-    y: 445.72546
+    x: 13.167978
+    y: 437.46378
     width: 93.552
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -3782,6 +3811,7 @@ MonoBehaviour:
   - {fileID: 1470049978}
   - {fileID: 1470049977}
   - {fileID: 1470049976}
+  - {fileID: 1470050295}
   - {fileID: 1470049975}
   - {fileID: 1470049974}
   - {fileID: 1470049973}
@@ -3901,6 +3931,7 @@ MonoBehaviour:
   - {fileID: 1470049991}
   - {fileID: 1470049990}
   - {fileID: 1470049989}
+  - {fileID: 1470050290}
   - {fileID: 1470049988}
   - {fileID: 1470049987}
   - {fileID: 1470049986}
@@ -3940,6 +3971,7 @@ MonoBehaviour:
   - {fileID: 1470050004}
   - {fileID: 1470050003}
   - {fileID: 1470050002}
+  - {fileID: 1470050291}
   - {fileID: 1470050001}
   - {fileID: 1470050000}
   - {fileID: 1470049999}
@@ -3959,7 +3991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 276.30322
+    x: 275.4785
     y: 364.3462
     width: 93.216
     height: 40
@@ -3979,6 +4011,7 @@ MonoBehaviour:
   - {fileID: 1470050017}
   - {fileID: 1470050016}
   - {fileID: 1470050015}
+  - {fileID: 1470050292}
   - {fileID: 1470050014}
   - {fileID: 1470050013}
   - {fileID: 1470050012}
@@ -4018,6 +4051,7 @@ MonoBehaviour:
   - {fileID: 1470050030}
   - {fileID: 1470050029}
   - {fileID: 1470050028}
+  - {fileID: 1470050293}
   - {fileID: 1470050027}
   - {fileID: 1470050026}
   - {fileID: 1470050025}
@@ -4037,7 +4071,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 29.406853
+    x: 30.23159
     y: 367.1044
     width: 93.296
     height: 40
@@ -4057,6 +4091,7 @@ MonoBehaviour:
   - {fileID: 1470050043}
   - {fileID: 1470050042}
   - {fileID: 1470050041}
+  - {fileID: 1470050294}
   - {fileID: 1470050040}
   - {fileID: 1470050039}
   - {fileID: 1470050038}
@@ -4176,6 +4211,7 @@ MonoBehaviour:
   - {fileID: 1470050056}
   - {fileID: 1470050055}
   - {fileID: 1470050054}
+  - {fileID: 1470050289}
   - {fileID: 1470050053}
   - {fileID: 1470050052}
   - {fileID: 1470050051}
@@ -4215,6 +4251,7 @@ MonoBehaviour:
   - {fileID: 1470050069}
   - {fileID: 1470050068}
   - {fileID: 1470050067}
+  - {fileID: 1470050288}
   - {fileID: 1470050066}
   - {fileID: 1470050065}
   - {fileID: 1470050064}
@@ -4234,7 +4271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 268.0275
+    x: 266.378
     y: 287.1045
     width: 93.448
     height: 40
@@ -4254,6 +4291,7 @@ MonoBehaviour:
   - {fileID: 1470050082}
   - {fileID: 1470050081}
   - {fileID: 1470050080}
+  - {fileID: 1470050287}
   - {fileID: 1470050079}
   - {fileID: 1470050078}
   - {fileID: 1470050077}
@@ -4293,6 +4331,7 @@ MonoBehaviour:
   - {fileID: 1470050095}
   - {fileID: 1470050094}
   - {fileID: 1470050093}
+  - {fileID: 1470050286}
   - {fileID: 1470050092}
   - {fileID: 1470050091}
   - {fileID: 1470050090}
@@ -4312,8 +4351,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 30.786148
-    y: 292.62183
+    x: 35.734608
+    y: 291.7971
     width: 91.384
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4332,6 +4371,7 @@ MonoBehaviour:
   - {fileID: 1470050108}
   - {fileID: 1470050107}
   - {fileID: 1470050106}
+  - {fileID: 1470050285}
   - {fileID: 1470050105}
   - {fileID: 1470050104}
   - {fileID: 1470050103}
@@ -4431,8 +4471,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 484.5788
-    y: 225.03566
+    x: 482.9293
+    y: 223.38618
     width: 93.312
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4451,6 +4491,7 @@ MonoBehaviour:
   - {fileID: 1470050121}
   - {fileID: 1470050120}
   - {fileID: 1470050119}
+  - {fileID: 1470050280}
   - {fileID: 1470050118}
   - {fileID: 1470050117}
   - {fileID: 1470050116}
@@ -4470,7 +4511,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 379.75153
+    x: 383.05048
     y: 225.03554
     width: 88.2
     height: 40
@@ -4490,6 +4531,7 @@ MonoBehaviour:
   - {fileID: 1470050134}
   - {fileID: 1470050133}
   - {fileID: 1470050132}
+  - {fileID: 1470050281}
   - {fileID: 1470050131}
   - {fileID: 1470050130}
   - {fileID: 1470050129}
@@ -4509,8 +4551,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 266.6481
-    y: 229.17348
+    x: 255.92642
+    y: 227.52399
     width: 88.12
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4529,6 +4571,7 @@ MonoBehaviour:
   - {fileID: 1470050147}
   - {fileID: 1470050146}
   - {fileID: 1470050145}
+  - {fileID: 1470050282}
   - {fileID: 1470050144}
   - {fileID: 1470050143}
   - {fileID: 1470050142}
@@ -4548,7 +4591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 154.92409
+    x: 155.69934
     y: 230.55278
     width: 87.568
     height: 40
@@ -4568,6 +4611,7 @@ MonoBehaviour:
   - {fileID: 1470050160}
   - {fileID: 1470050159}
   - {fileID: 1470050158}
+  - {fileID: 1470050283}
   - {fileID: 1470050157}
   - {fileID: 1470050156}
   - {fileID: 1470050155}
@@ -4607,6 +4651,7 @@ MonoBehaviour:
   - {fileID: 1470050173}
   - {fileID: 1470050172}
   - {fileID: 1470050171}
+  - {fileID: 1470050284}
   - {fileID: 1470050170}
   - {fileID: 1470050169}
   - {fileID: 1470050168}
@@ -4662,6 +4707,7 @@ MonoBehaviour:
   - {fileID: 1470050186}
   - {fileID: 1470050185}
   - {fileID: 1470050184}
+  - {fileID: 1470050279}
   - {fileID: 1470050183}
   - {fileID: 1470050182}
   - {fileID: 1470050181}
@@ -4717,6 +4763,7 @@ MonoBehaviour:
   - {fileID: 1470050199}
   - {fileID: 1470050198}
   - {fileID: 1470050197}
+  - {fileID: 1470050278}
   - {fileID: 1470050196}
   - {fileID: 1470050195}
   - {fileID: 1470050194}
@@ -4772,6 +4819,7 @@ MonoBehaviour:
   - {fileID: 1470050212}
   - {fileID: 1470050211}
   - {fileID: 1470050210}
+  - {fileID: 1470050277}
   - {fileID: 1470050209}
   - {fileID: 1470050208}
   - {fileID: 1470050207}
@@ -4807,8 +4855,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 159.27043
-    y: 157.36081
+    x: 158.3962
+    y: 154.88657
     width: 87.976
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4827,6 +4875,7 @@ MonoBehaviour:
   - {fileID: 1470050255}
   - {fileID: 1470050254}
   - {fileID: 1470050253}
+  - {fileID: 1470050276}
   - {fileID: 1470050252}
   - {fileID: 1470050251}
   - {fileID: 1470050250}
@@ -4882,6 +4931,7 @@ MonoBehaviour:
   - {fileID: 1470050267}
   - {fileID: 1470050266}
   - {fileID: 1470050265}
+  - {fileID: 1470050275}
   - {fileID: 1470050264}
   - {fileID: 1470050263}
   - {fileID: 1470050262}
@@ -5083,8 +5133,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Fungus::Fungus.Block
   nodeRect:
     serializedVersion: 2
-    x: 236.3034
-    y: 575.38007
+    x: 249.59999
+    y: 572.1801
     width: 73.591995
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -29503,7 +29553,7 @@ MonoBehaviour:
   value: 0
 --- !u!114 &1470050248
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29523,7 +29573,7 @@ MonoBehaviour:
   inOutVar: {fileID: 1470049917}
 --- !u!114 &1470050249
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29537,7 +29587,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1470050250
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29551,7 +29601,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1470050251
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29565,7 +29615,7 @@ MonoBehaviour:
   indentLevel: 2
 --- !u!114 &1470050252
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29586,7 +29636,7 @@ MonoBehaviour:
   callMode: 3
 --- !u!114 &1470050253
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29613,7 +29663,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1470050254
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -29856,7 +29906,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050255
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30008,7 +30058,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050256
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30026,7 +30076,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1470050257
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30269,7 +30319,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050258
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30289,7 +30339,7 @@ MonoBehaviour:
   inOutVar: {fileID: 1470049916}
 --- !u!114 &1470050259
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30324,7 +30374,7 @@ MonoBehaviour:
   rotateMode: 0
 --- !u!114 &1470050260
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30567,7 +30617,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050261
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30581,7 +30631,7 @@ MonoBehaviour:
   indentLevel: 0
 --- !u!114 &1470050262
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30595,7 +30645,7 @@ MonoBehaviour:
   indentLevel: 1
 --- !u!114 &1470050263
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30609,7 +30659,7 @@ MonoBehaviour:
   indentLevel: 2
 --- !u!114 &1470050264
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30630,7 +30680,7 @@ MonoBehaviour:
   callMode: 3
 --- !u!114 &1470050265
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30657,7 +30707,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &1470050266
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -30900,7 +30950,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050267
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31052,7 +31102,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050268
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31070,7 +31120,7 @@ MonoBehaviour:
     booleanVal: 0
 --- !u!114 &1470050269
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31313,7 +31363,7 @@ MonoBehaviour:
     vector3Val: {x: 0, y: 0, z: 0}
 --- !u!114 &1470050270
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31333,7 +31383,7 @@ MonoBehaviour:
   inOutVar: {fileID: 1470049916}
 --- !u!114 &1470050271
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31353,7 +31403,7 @@ MonoBehaviour:
   inOutVar: {fileID: 1470049917}
 --- !u!114 &1470050272
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31388,7 +31438,7 @@ MonoBehaviour:
   rotateMode: 0
 --- !u!114 &1470050273
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -31629,6 +31679,481 @@ MonoBehaviour:
   vector3Data:
     vector3Ref: {fileID: 0}
     vector3Val: {x: 0, y: 0, z: 0}
+--- !u!114 &1470050274
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 431
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050275
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 455
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050276
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 454
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050277
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 453
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050278
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 452
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050279
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 451
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050280
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 450
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050281
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 449
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050282
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 448
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050283
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 447
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050284
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 446
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050285
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 445
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050286
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 444
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050287
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 443
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050288
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 442
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050289
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 441
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050290
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 440
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050291
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 439
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050292
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 438
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050293
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 437
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050294
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 436
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050295
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 435
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050296
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 434
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050297
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 433
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &1470050298
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1470049860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Fungus::Fungus.LoadScene
+  itemId: 432
+  indentLevel: 3
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Fin
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &1580478495
 GameObject:
   m_ObjectHideFlags: 0
@@ -32300,6 +32825,7 @@ GameObject:
   - component: {fileID: 1971188882}
   - component: {fileID: 1971188881}
   - component: {fileID: 1971188884}
+  - component: {fileID: 1971188885}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -32425,6 +32951,103 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!82 &1971188885
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1971188880}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 12dd1604e48d52148b215b7e83d7a99e, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &2020519570
 GameObject:
   m_ObjectHideFlags: 0
@@ -32438,7 +33061,7 @@ GameObject:
   - component: {fileID: 2020519573}
   - component: {fileID: 2020519572}
   m_Layer: 0
-  m_Name: pieza21
+  m_Name: salir
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
