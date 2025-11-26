@@ -1,93 +1,38 @@
 using UnityEngine;
+using UnityEngine.AI;
 
-public class EnemigoRutina:MonoBehaviour
+public class EnemigoRutina : MonoBehaviour
 {
+    [Header("Rutina y Animación")]
     public int rutina;
     public float cronometro;
     public Animator animator;
+
+    [Header("Movimiento Aleatorio")]
     public Quaternion angulo;
     public float grado;
-
-    public GameObject jugador;
     public float velocidadCaminar = 2f;
+
+    [Header("Persecución")]
+    public GameObject jugador;
     public float velocidadCorrer = 8f;
     public bool ataque;
+    public NavMeshAgent agente;
+    public float distancia_ataque = 1.5f; // Distancia mínima para atacar
+    public float radio_vision = 10f;      // Distancia a la que detecta jugador
+
     void Start()
     {
-        //INICIALIZAR ANIMACION
         animator = GetComponent<Animator>();
-        //BUSCAR JUGADOS
         jugador = GameObject.Find("jugador");
-    }
+        agente = GetComponent<NavMeshAgent>();
 
-   public void ComportamientoEnemigo()
-{
-    if(Vector3.Distance(transform.position, jugador.transform.position) > 5)
-    {
-        // RANGO DE VISION DEL ENEMIGO
-        cronometro += 1 * Time.deltaTime;
-        if (cronometro >=4)
-        {
-            // NUMERO ALEATORIO ENTRE 0,1
-            rutina = Random.Range(0,2);
-            cronometro =0;
-        }
-        
-        switch (rutina)
-        {
-            case 0:
-                animator.SetBool("walk", false);
-                animator.SetBool("run", false); // Aseguramos que "run" esté desactivado.
-                break;
-
-            case 1:
-                // ESCOGER VALORES ALEATORIOS PARA MOVER AL ENEMIGO
-                grado = Random.Range(0, 360);
-                angulo = Quaternion.Euler(0, grado, 0);
-                rutina ++;
-                break;
-
-            case 2:
-                // CAMINAR
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, angulo, 0.5f);
-                // ----------- ANADIR VELOCIDAD DE CAMINAR ----------
-                transform.Translate(Vector3.forward * velocidadCaminar * Time.deltaTime);
-                animator.SetBool("walk", true);
-                animator.SetBool("run", false); // Aseguramos que "run" esté desactivado.
-                break;
-        }
-    }
-    else
-    {
-            if (Vector3.Distance(transform.position, jugador.transform.position)> 1 && !ataque)
-            {
-                // PERSEGUIR AL JUGADOR
-                var miradaPosicion = jugador.transform.position - transform.position;
-                miradaPosicion.y = 0;
-                var giro = Quaternion.LookRotation(miradaPosicion);
-                transform.rotation = Quaternion.RotateTowards(transform.rotation, giro, 2);
-                
-                // Cancelar animación de caminar e iniciar animación de correr
-                animator.SetBool("walk", false); 
-                animator.SetBool("run", true); 
-                transform.Translate(Vector3.forward * velocidadCorrer * Time.deltaTime);
-                
-                animator.SetBool("attack", false);
-                // VELOCIDAD DE CORRER
-            }
-            else
-            {
-                animator.SetBool("walk", false);
-                animator.SetBool("run", false);
-                animator.SetBool("attack", true);
-                ataque = true;
-            }
-    }
-}
-    void finalAtaque()
-    {
-        animator.SetBool("attack", false);
-        ataque = false;
+        // Configuración inicial del agente
+        agente.speed = velocidadCorrer;
+        agente.stoppingDistance = distancia_ataque;
+        agente.autoBraking = true; // Se desacelera al llegar al destino
+        agente.angularSpeed = 120f; // Velocidad de giro
+        agente.acceleration = 8f;   // Aceleración
     }
 
     void Update()
@@ -95,4 +40,77 @@ public class EnemigoRutina:MonoBehaviour
         ComportamientoEnemigo();
     }
 
+    void ComportamientoEnemigo()
+    {
+        if (jugador == null) return;
+
+        float distanciaJugador = Vector3.Distance(transform.position, jugador.transform.position);
+
+        if (distanciaJugador > radio_vision)
+        {
+            // Comportamiento aleatorio
+            agente.enabled = false;
+            animator.SetBool("run", false);
+
+            cronometro += Time.deltaTime;
+            if (cronometro >= 4f)
+            {
+                rutina = Random.Range(0, 2);
+                cronometro = 0;
+            }
+
+            switch (rutina)
+            {
+                case 0:
+                    animator.SetBool("walk", false);
+                    break;
+                case 1:
+                    grado = Random.Range(0, 360);
+                    angulo = Quaternion.Euler(0, grado, 0);
+                    rutina++;
+                    break;
+                case 2:
+                    transform.rotation = Quaternion.RotateTowards(transform.rotation, angulo, 0.5f);
+                    transform.Translate(Vector3.forward * velocidadCaminar * Time.deltaTime);
+                    animator.SetBool("walk", true);
+                    break;
+            }
+        }
+        else
+        {
+            // Perseguir al jugador usando NavMesh
+            agente.enabled = true;
+            agente.speed = velocidadCorrer;
+            agente.SetDestination(jugador.transform.position);
+
+            // Revisar distancia para atacar
+            if (distanciaJugador > distancia_ataque)
+            {
+                animator.SetBool("walk", false);
+                animator.SetBool("run", true);
+            }
+            else
+            {
+                // Si está dentro de distancia de ataque y agente ya llegó al destino
+                if (!ataque && agente.remainingDistance <= agente.stoppingDistance && !agente.pathPending)
+                {
+                    agente.isStopped = true; // Detener movimiento antes de atacar
+                    transform.LookAt(new Vector3(jugador.transform.position.x, transform.position.y, jugador.transform.position.z));
+
+                    animator.SetBool("walk", false);
+                    animator.SetBool("run", false);
+                    animator.SetBool("attack", true);
+                    ataque = true;
+                }
+            }
+        }
+    }
+
+    // Llamar desde Animation Event al final de la animación de ataque
+    public void finalAtaque()
+    {
+        animator.SetBool("attack", false);
+        ataque = false;
+        agente.isStopped = false; // Reanudar movimiento después de atacar
+    }
 }
