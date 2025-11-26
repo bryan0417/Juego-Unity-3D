@@ -7,6 +7,7 @@ public class logicaBarraVida : MonoBehaviour
     public float vidaActual;
     public Image imagenBarraVida;
     public GameObject finDelJuego;
+    public Cronometro cronometro;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -32,12 +33,7 @@ public class logicaBarraVida : MonoBehaviour
     
     void juegoTerminado()
     {
-        finDelJuego.SetActive(true);
-
-        // Detener el tiempo
-        Time.timeScale = 0f;
-
-        // Desactivar personaje
-        gameObject.SetActive(false);
+        
+        cronometro.muerto();
     }
 }

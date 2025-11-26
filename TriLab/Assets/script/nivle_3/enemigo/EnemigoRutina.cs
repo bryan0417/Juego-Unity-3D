@@ -19,7 +19,12 @@ public class EnemigoRutina : MonoBehaviour
     public bool ataque;
     public NavMeshAgent agente;
     public float distancia_ataque = 1.5f; // Distancia mínima para atacar
-    public float radio_vision = 10f;      // Distancia a la que detecta jugador
+    public float radio_vision = 10f; 
+
+    public int nivelRisa = 19;
+    [SerializeField] private AudioClip risa;     // El clip de la risa
+
+    private AudioSource audioSource;  // El AudioSource que está en la cámara
 
     void Start()
     {
@@ -33,6 +38,9 @@ public class EnemigoRutina : MonoBehaviour
         agente.autoBraking = true; // Se desacelera al llegar al destino
         agente.angularSpeed = 120f; // Velocidad de giro
         agente.acceleration = 8f;   // Aceleración
+
+        // Obtener el AudioSource de la cámara principal
+        audioSource = Camera.main.GetComponent<AudioSource>();  // Accede al AudioSource de la cámara
     }
 
     void Update()
@@ -48,6 +56,17 @@ public class EnemigoRutina : MonoBehaviour
 
         if (distanciaJugador > radio_vision)
         {
+            var randomNumero = Random.Range(0, 21);
+            if (randomNumero < nivelRisa)
+            {
+                nivelRisa++;
+                // SONIDO RISA
+                if (audioSource != null && risa != null)  // Asegurarse de que audioSource y risa no sean null
+                {
+                    audioSource.PlayOneShot(risa);  // Reproducir el sonido usando el AudioSource de la cámara
+                }
+            }
+
             // Comportamiento aleatorio
             agente.enabled = false;
             animator.SetBool("run", false);
