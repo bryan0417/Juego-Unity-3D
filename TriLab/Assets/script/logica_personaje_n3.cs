@@ -4,8 +4,9 @@ public class logica_personaje_n3 : MonoBehaviour
 {
     public float velocidadMovimiento = 5f;
     public float velocidadRotacion = 200f;
-
+    public restarDanoBarraVida restarVida;
     private Animator ani;
+   
     private float x, y;
 
     void Start()
@@ -13,6 +14,7 @@ public class logica_personaje_n3 : MonoBehaviour
         ani = GetComponent<Animator>();
     }
 
+ 
     void Update()
     {
         x = Input.GetAxis("Horizontal");
@@ -34,6 +36,11 @@ public class logica_personaje_n3 : MonoBehaviour
         if (other.CompareTag("Finish"))
         {
             Debug.Log("Finilitaciones Ha salido.");
+        }
+        else if (other.CompareTag("arma"))
+        {
+            restarVida.RestarVida(true);
+            Debug.Log("Dano");
         }
     }
 }
