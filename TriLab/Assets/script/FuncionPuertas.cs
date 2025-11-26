@@ -8,6 +8,7 @@ public class PuertaCorrecta : MonoBehaviour
 
     void Awake()
     {
+        // Reiniciar para que siempre escoja una puerta nueva
         puertaCorrecta = 0;
     }
 
@@ -24,14 +25,12 @@ public class PuertaCorrecta : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            // Si NO tiene la llave
             if (!Llave.jugadorTieneLlave)
             {
                 Debug.Log("No puedes pasar. Necesitas la llave.");
                 return;
             }
 
-            // Si es la puerta correcta
             if (miNumeroDePuerta == puertaCorrecta)
             {
                 Debug.Log("PUERTA CORRECTA. Cargando nivel...");
@@ -39,10 +38,7 @@ public class PuertaCorrecta : MonoBehaviour
             }
             else
             {
-                Debug.Log("Puerta incorrecta. Pierdes una vida.");
-
-                // 🔥 RESTAR VIDA
-                other.GetComponent<VidaJugador>().PerderVida();
+                Debug.Log("Puerta incorrecta");
             }
         }
     }

@@ -2,8 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-
-public class Timer : MonoBehaviour
+public class Tiempo : MonoBehaviour
 {
     [SerializeField] public float tiempo;
     [SerializeField] public TMP_Text texto;
@@ -24,7 +23,7 @@ public class Timer : MonoBehaviour
         // Cuando el tiempo llega a 0...
         if (tiempo == 0)
         {
-            SceneManager.LoadScene("Game Over");
+            SceneManager.LoadScene("Game Over 1");
         }
     }
 }

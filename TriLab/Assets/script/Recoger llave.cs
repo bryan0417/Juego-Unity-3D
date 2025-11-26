@@ -3,16 +3,17 @@ using UnityEngine.UI;
 
 public class Recogerllave : MonoBehaviour
 {
-    public Image iconoLlave; // Se crea para tener la imagen de la llave
-    private bool activo; // Para saber cuando el personaje este en el box collider para activación
-
+    public static bool jugadorTieneLlave = false;  // <-- Variable global
+    public Image iconoLlave; 
+    private bool activo; 
 
     void Update()
     {
-        if (activo && Input.GetKeyDown(KeyCode.E)) // Si el juagdor esta en ell box collider y oprime la tecla E
+        if (activo && Input.GetKeyDown(KeyCode.E)) 
         {
-            iconoLlave.enabled = true; // Se muestra la llave
-            gameObject.SetActive(false); // El objeto desaparece 3D
+            iconoLlave.enabled = true;     // Muestra el icono
+            jugadorTieneLlave = true;      // <-- Ahora el jugador SÍ tiene la llave
+            gameObject.SetActive(false);   // Desaparece la llave 3D
         }
     }
 
@@ -26,7 +27,7 @@ public class Recogerllave : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player")) //Si el que entra en esa zona tiene el tag de player
+        if (other.CompareTag("Player"))
         {
             activo = false;
         }

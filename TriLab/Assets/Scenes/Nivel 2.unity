@@ -1011,6 +1011,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d1879d2f2ffb2f0419af36a4357136c1, type: 3}
       insertIndex: -1
       addedObject: {fileID: 925465283}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d1879d2f2ffb2f0419af36a4357136c1, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 925465287}
   m_SourcePrefab: {fileID: 100100000, guid: d1879d2f2ffb2f0419af36a4357136c1, type: 3}
 --- !u!1 &258207153
 GameObject:
@@ -8376,6 +8379,18 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.2000002, y: 2.0999997, z: 0.26249638}
   m_Center: {x: -1.0000001, y: 1.0499998, z: 0.11318458}
+--- !u!114 &925465287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925465278}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea7130c67b91d149acd2a9901adc056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Puerta2
 --- !u!4 &936944432 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8504309617613441659, guid: e2d9f6dd4f636fb4991a5e1b33292278, type: 3}
@@ -10224,7 +10239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47fa678ef5c76084885dadc402cc6f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
-  tiempo: 60
+  tiempo: 120
   texto: {fileID: 301729242}
   minutos: 0
   segundos: 0
