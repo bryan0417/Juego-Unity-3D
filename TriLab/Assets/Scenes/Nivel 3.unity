@@ -2530,12 +2530,14 @@ MonoBehaviour:
   angulo: {x: 0, y: 0, z: 0, w: 0}
   grado: 0
   velocidadCaminar: 2
-  jugador: {fileID: 0}
+  jugador: {fileID: 2004780884}
   velocidadCorrer: 6
   ataque: 0
   agente: {fileID: 675352861}
   distancia_ataque: 1
   radio_vision: 20
+  nivelRisa: 19
+  risa: {fileID: 0}
 --- !u!95 &675352858
 Animator:
   serializedVersion: 7
@@ -2622,6 +2624,7 @@ GameObject:
   - component: {fileID: 690692937}
   - component: {fileID: 690692938}
   - component: {fileID: 690692939}
+  - component: {fileID: 690692940}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2913,6 +2916,103 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!82 &690692940
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690692932}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 32e6bfcf7f4a0f140bcddd85994f346a, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &738416681
 GameObject:
   m_ObjectHideFlags: 0
@@ -4167,6 +4267,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Cronometro
   textoCronometro: {fileID: 1126479746}
   tiempo: 120
+  finDelJuego: {fileID: 288529790}
+  musica: {fileID: 690692940}
+  gameOver: {fileID: 8300000, guid: dcb5db5fb71cd3b4dbc7f091a2aac992, type: 3}
 --- !u!1 &971330908
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,7 +4637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000030517578, y: 0.000076293945}
+  m_AnchoredPosition: {x: 0.000030517578, y: -18}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1094778447
@@ -4720,7 +4823,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 285, y: 210}
+  m_AnchoredPosition: {x: 285, y: 131}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1126479746
@@ -7091,7 +7194,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.5, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -270, y: 222}
+  m_AnchoredPosition: {x: -270, y: 150}
   m_SizeDelta: {x: 100.8, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1797810496
@@ -8199,6 +8302,7 @@ MonoBehaviour:
   vidaActual: 80
   imagenBarraVida: {fileID: 1094778447}
   finDelJuego: {fileID: 288529790}
+  cronometro: {fileID: 900362555}
 --- !u!114 &2004780893
 MonoBehaviour:
   m_ObjectHideFlags: 0
