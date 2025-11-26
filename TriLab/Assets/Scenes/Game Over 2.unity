@@ -336,7 +336,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1703450330}
-        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameOver2, Assembly-CSharp
         m_MethodName: Volver
         m_Mode: 1
         m_Arguments:
@@ -688,7 +688,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1703450330}
-        m_TargetAssemblyTypeName: GameOver, Assembly-CSharp
+        m_TargetAssemblyTypeName: GameOver2, Assembly-CSharp
         m_MethodName: Salir
         m_Mode: 1
         m_Arguments:
@@ -991,9 +991,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1703450325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15ff0b3e5808f4a4caa4ad9ac7c8f71a, type: 3}
+  m_Script: {fileID: 11500000, guid: c9e4fc3da5c2b504c91095564e73200b, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::GameOver
+  m_EditorClassIdentifier: Assembly-CSharp::GameOver2
   canvasMenu: {fileID: 0}
   canvasOpciones: {fileID: 0}
 --- !u!1 &1836890504
