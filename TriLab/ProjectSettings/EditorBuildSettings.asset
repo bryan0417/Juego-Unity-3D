@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Pasar Nivel 1.unity
     guid: fd8a3d74f62102f459c6328ffcb88b01
   - enabled: 1
+    path: Assets/Scenes/Game Over 1.unity
+    guid: d6aa9d02c2622d0449e46780f87cae76
+  - enabled: 1
     path: Assets/Scenes/Nivel 2.unity
     guid: 1af8c7bc15e3d1b478e74d712b0d7e7e
   - enabled: 1
@@ -36,8 +39,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Minijuego/Escena Juego.unity
     guid: fd68e51c51bfb5a4b94ade299bfde555
   - enabled: 1
+    path: Assets/Scenes/Game Over 2.unity
+    guid: 39aa740ae5d0a324c8c4e5519f87fd5d
+  - enabled: 1
     path: Assets/Scenes/Fin.unity
     guid: 5254b228d9ddff144b224391cfa02611
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 2cdee5306a8a8c94193ef8e708321ad5
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
