@@ -6,7 +6,7 @@ public class logica_personaje_n3 : MonoBehaviour
     public float velocidadRotacion = 200f;
     public restarDanoBarraVida restarVida;
     private Animator ani;
-   
+    public CargarMiniJuego miniJuego;
     private float x, y;
 
     void Start()
@@ -35,6 +35,7 @@ public class logica_personaje_n3 : MonoBehaviour
     {
         if (other.CompareTag("Finish"))
         {
+            miniJuego.EntrarMiniJuego();
             Debug.Log("Finilitaciones Ha salido.");
         }
         else if (other.CompareTag("arma"))
