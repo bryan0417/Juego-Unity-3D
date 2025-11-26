@@ -10,21 +10,13 @@ public class MenuInicial : MonoBehaviour
     // Jugar → Ir a la escena para elegir personaje
     public void Jugar()
     {
-        SceneManager.LoadScene("ElegirPersonaje");
+        SceneManager.LoadScene("Elegir Personaje");
     }
 
     // Abrir Canvas de Opciones
     public void AbrirOpciones()
     {
-        canvasMenu.SetActive(false);
-        canvasOpciones.SetActive(true);
-    }
-
-    // Cerrar Canvas de Opciones y volver al menú
-    public void CerrarOpciones()
-    {
-        canvasOpciones.SetActive(false);
-        canvasMenu.SetActive(true);
+        SceneManager.LoadScene("Opciones");
     }
 
     // Salir del juego
