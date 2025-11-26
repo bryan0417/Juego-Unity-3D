@@ -22,7 +22,7 @@ public class ElegirPersonaje : MonoBehaviour
     // Cuando se presiona el botón JuanM
     public void ElegirJuanM()
     {
-        SeleccionPersonaje.personajeElegido = "bolivar_juan@Fight Idle";
+        SeleccionPersonaje.personajeElegido = "juan_T-Pose (1)";
         SceneManager.LoadScene("Nivel 1");
     }
 

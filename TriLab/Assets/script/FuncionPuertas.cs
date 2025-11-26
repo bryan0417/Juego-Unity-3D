@@ -34,7 +34,7 @@ public class PuertaCorrecta : MonoBehaviour
             if (miNumeroDePuerta == puertaCorrecta)
             {
                 Debug.Log("PUERTA CORRECTA. Cargando nivel...");
-                SceneManager.LoadScene("Nivel 2");
+                SceneManager.LoadScene("Pasar Nivel 1");
             }
             else
             {
